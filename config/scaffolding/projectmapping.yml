@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: Kvv_0809_AWSTestProject
+runtimes:
+- runtimeAlias: kvv_0809
+  assets:
+  - name: fld_111748608_stage00.projects.fl32d93cb4ecdb4486897a768073a0e4a1.integrations:tppfcs
+    type: flow
+    stepId: /1
+    reference: fld_111748608_stage00.projects.fl32d93cb4ecdb4486897a768073a0e4a1.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
