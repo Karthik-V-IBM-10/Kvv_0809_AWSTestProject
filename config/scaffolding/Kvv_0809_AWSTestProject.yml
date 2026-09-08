@@ -24,9 +24,15 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQA_TimeoutTest
+  version: "1.0"
   gitServerName: SIQAGitHubTest
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: JMSTest
+  gitServerName: kvv
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
 - serviceName: project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:TestDBConn
@@ -34,6 +40,8 @@ services:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
   - name: SIQA_TimeoutTest
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -51,6 +59,8 @@ services:
     version: "1.0"
   - name: SIQA_TimeoutTest
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -66,6 +76,8 @@ services:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
   - name: SIQA_TimeoutTest
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -87,6 +99,8 @@ services:
     version: "1.0"
   - name: SIQA_TimeoutTest
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -102,6 +116,8 @@ services:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
   - name: SIQA_TimeoutTest
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -123,6 +139,8 @@ services:
     version: "1.0"
   - name: SIQA_TimeoutTest
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -142,6 +160,8 @@ services:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
   - name: SIQA_TimeoutTest
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -163,6 +183,8 @@ services:
     version: "1.0"
   - name: SIQA_TimeoutTest
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -179,6 +201,8 @@ services:
     version: "1.0"
   - name: SIQA_TimeoutTest
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -194,6 +218,8 @@ services:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
   - name: SIQA_TimeoutTest
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
