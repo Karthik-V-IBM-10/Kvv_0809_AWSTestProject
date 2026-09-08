@@ -23,10 +23,17 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: SIQA_TimeoutTest
+  gitServerName: SIQAGitHubTest
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:TestDBConn
   packages:
   - name: Kvv_0809_AWSTestProject
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -42,6 +49,8 @@ services:
   packages:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -55,6 +64,8 @@ services:
 - serviceName: project.kvv_0809_awstest.integrations:DAFdocumentToJson
   packages:
   - name: Kvv_0809_AWSTestProject
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -74,6 +85,8 @@ services:
   packages:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -87,6 +100,8 @@ services:
 - serviceName: project.kvv_0809_awstest.integrations:doUntilDADA
   packages:
   - name: Kvv_0809_AWSTestProject
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -106,6 +121,8 @@ services:
   packages:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -123,6 +140,8 @@ services:
 - serviceName: project.kvv_0809_awstest.integrations:ifElseDADA
   packages:
   - name: Kvv_0809_AWSTestProject
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -142,6 +161,8 @@ services:
   packages:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -156,6 +177,8 @@ services:
   packages:
   - name: Kvv_0809_AWSTestProject
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -169,6 +192,8 @@ services:
 - serviceName: project.kvv_0809_awstest.integrations:switchCaseDADA
   packages:
   - name: Kvv_0809_AWSTestProject
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -192,18 +217,18 @@ configurationVariables:
   : "10"
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.password
   : "{AES}X4QCAWgjWkTdMQvFA5XaqGmK1wuN3U1rA1B0VhuZoUw="
-  ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.datasourceClass
-  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionManagerSettings.poolIncrementSize
   : "1"
+  ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.databaseName
   : SIQACloud
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionManagerSettings.startupRetryCount
   : "0"
-  ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.networkProtocol
-  : tcp
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionManagerSettings.blockingTimeout
   : "1000"
+  ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.networkProtocol
+  : tcp
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.trustStore
