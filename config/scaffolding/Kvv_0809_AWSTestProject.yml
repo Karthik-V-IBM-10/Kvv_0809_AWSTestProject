@@ -16,6 +16,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: SIQACloudStreamsTests
+  gitServerName: SIQAGitHubTest
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:mssql
   packages:
