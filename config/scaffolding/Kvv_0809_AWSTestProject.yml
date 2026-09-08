@@ -36,6 +36,18 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.kvv_0809_awstest.integrations:getGlobalVar
+  packages:
+  - name: Kvv_0809_AWSTestProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1072
 configurationVariables:
   ? artConnection.Kvv_0809_AWSTestProject.project.kvv_0809_awstest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.mssql.connectionSettings.portNumber
   : "1433"
